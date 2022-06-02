@@ -1,3 +1,7 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,46 @@
 
 .App-link {
   color: #61dafb;
+}
+
+input, button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px thin white;
+}
+
+button {
+  background-color: rgb(67, 0, 250);
+  color: white;
+  border-radius: 5px;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#notes {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.note {
+  background-color: lightblue;
+  width: 200px;
+  height: fit-content;
+  border-radius: 8px;
+  padding-bottom: 10px;
 }
 
 @keyframes App-logo-spin {
